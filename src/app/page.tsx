@@ -1,19 +1,13 @@
-import Navbar from "@/components/Navbar";
-import HeroSection from "@/components/HeroSection";
-import Footer from "@/components/Footer";
-import "@/styles/globals.css";
+import FlightSearch from '@/components/FlightSearch';
 
-export default function RootLayout({ children }: { children: React.ReactNode }) {
+export default function Home() {
   return (
-    <html lang="en">
-      <body>
-        <Navbar />
-        {children}
-        <Footer />
-      </body>
-    </html>
+    <div>
+      <FlightSearch />
+    </div>
   );
 }
+
 
 
 

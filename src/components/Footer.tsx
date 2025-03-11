@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <footer>
       <div>
-        <p>© 2025 TroposFly. All rights reserved.</p>
+        <p>© {new Date().getFullYear()} TroposFly. All rights reserved.</p>
       </div>
     </footer>
   );
