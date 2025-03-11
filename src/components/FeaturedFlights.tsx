@@ -20,3 +20,4 @@ const FeaturedFlights = () => {
 };
 
 export default FeaturedFlights;
+

@@ -1,33 +1,20 @@
-<<<<<<< HEAD
-import HeroSection from '../components/HeroSection';
-import FlightSearchForm from '../components/FlightSearchForm';
-import FeaturedFlights from '../components/FeaturedFlights';
-import Footer from '../components/Footer';
+import Navbar from "@/components/Navbar";
+import HeroSection from "@/components/HeroSection";
+import Footer from "@/components/Footer";
+import "@/styles/globals.css";
 
-const HomePage = () => {
-=======
-import Image from "next/image";
-import HeroSection from '../components/HeroSection';
-import FlightSearchForm from '../components/FlightSearchForm';
-import FeaturedFlights from '../components/FeaturedFlights';
-
-export default function HomePage() {
->>>>>>> feature/navbar
+export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <div>
-      <HeroSection />
-      <FlightSearchForm />
-      <FeaturedFlights />
-<<<<<<< HEAD
-      <Footer />
-    </div>
-  );
-};
-
-export default HomePage;
-=======
-    </div>
+    <html lang="en">
+      <body>
+        <Navbar />
+        {children}
+        <Footer />
+      </body>
+    </html>
   );
 }
 
->>>>>>> feature/navbar
+
+
+
