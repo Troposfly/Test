@@ -1,6 +1,7 @@
 {
   "name": "troposfly",
   "version": "0.1.0",
+<<<<<<< HEAD
   "private": true,
   "scripts": {
     "dev": "next dev --turbopack",
@@ -25,3 +26,12 @@
     "@eslint/eslintrc": "^3"
   }
 }
+=======
+  "dependencies": {
+    "next": "latest",
+    "react": "latest"
+  }
+}
+
+
+>>>>>>> feature/navbar
